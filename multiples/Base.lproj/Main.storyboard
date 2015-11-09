@@ -72,13 +72,13 @@
                                     <action selector="onAddBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1dz-CE-nXE"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VjU-hJ-QlW">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VjU-hJ-QlW">
                                 <rect key="frame" x="181" y="193" width="238" height="67"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" id="RuQ-ul-wZh"/>
                                     <constraint firstAttribute="width" constant="238" id="SbV-u1-Sgt"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -112,7 +112,7 @@
                         <outlet property="logo" destination="6E5-HQ-bu5" id="RpJ-5Y-jay"/>
                         <outlet property="multiplesLbl" destination="VjU-hJ-QlW" id="Mon-MN-9Un"/>
                         <outlet property="playBtn" destination="x8m-kX-IYV" id="qbD-H0-FM7"/>
-                        <outlet property="whatMultiple" destination="6Xw-x7-d64" id="6e5-Nt-Vxb"/>
+                        <outlet property="whatMultipleTxt" destination="6Xw-x7-d64" id="xwq-bW-E2k"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
