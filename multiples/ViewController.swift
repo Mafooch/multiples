@@ -16,5 +16,14 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var addBtn: UIButton!
     @IBOutlet weak var multiplesLbl: UILabel!
+    
+    
+    @IBAction func onPlayBtnPressed(sender: UIButton) {
+        
+    }
+    
+    @IBAction func onAddBtnPressed(sender: UIButton) {
+        
+    }
 }
 

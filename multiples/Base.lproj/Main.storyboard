@@ -51,6 +51,9 @@
                                     <constraint firstAttribute="height" constant="183" id="fsq-ns-PDN"/>
                                 </constraints>
                                 <state key="normal" image="play"/>
+                                <connections>
+                                    <action selector="onPlayBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4bV-el-4Cm"/>
+                                </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1h-Ad-AGo">
                                 <rect key="frame" x="195" y="418" width="211" height="101"/>
@@ -65,6 +68,9 @@
                                         <exclude reference="XD0-cT-uJB"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="onAddBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1dz-CE-nXE"/>
+                                </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VjU-hJ-QlW">
                                 <rect key="frame" x="181" y="193" width="238" height="67"/>
